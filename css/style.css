@@ -1,0 +1,144 @@
+*{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.hero-card{
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.header{
+    background-color: transparent;
+    padding-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-style{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+    margin: 0 3.5rem;
+}
+
+.lang{
+    margin: 0 0.75rem;
+}
+
+.language{
+    line-height: 1.3em; 
+    padding: 0.5rem 1.375rem;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: #fff;
+    font-size: .875rem;
+}
+
+.signin{
+    float: none; 
+    background-color: #e50914;
+    padding: 7px 17px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-bg{
+    object-fit: cover;
+    width: 100%;
+}
+
+.header-img{
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hero-img-gradient{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.hero-text{
+    color: #fff;
+    margin: 100px auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+}
+
+.txt1{
+    font-size: 3.125rem;
+    margin: 0px auto;
+    max-width: 640px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.txt2{
+    font-size: 1.625rem;
+    margin: 1rem auto;
+    max-width: 640px;
+    font-weight: 400;
+}
+
+.mail-form{
+    max-width: 950px;
+    padding-top: 0.85rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-txt{
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    font-weight: 400;
+    margin: 0px auto;
+}
+
+.email-form-ele{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+}
+
+.email-form-ele input{
+    min-width: 450px;
+    height: 60px !important;
+    padding: 10px 10px 0px;
+    box-shadow: none;
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.email-form-ele button{
+    float: none;
+    display: inline-block;
+    flex: 1 0 auto;
+    text-align: left;
+    vertical-align: top;
+    font-size: 1.625rem;
+    font-weight: 400;
+    min-height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 9, 20);
+    padding: 0px 1em;
+}
